@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw-02"
+version = "0.1.0"
+description = ""
+authors = ["goit_student"]
+readme = "README.md"
+packages = [{include = "hw_02"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
